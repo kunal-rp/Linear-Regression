@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 #read data
 dataframe = pd.read_fwf('sample.txt')
-x_values = dataframe[['x']]
-y_values = dataframe[['y']]
+x_values = dataframe[['Hours']]
+y_values = dataframe[['Grade']]
 
 #train model on data
 body_reg = linear_model.LinearRegression()
