@@ -25,3 +25,8 @@ Python and R are the leading languages atm, and I already know python, so basica
 1 month
 
 Thats the plan so far, I will try and post more often or start a running diary about this on my website.
+
+
+Just came across a great 'refresher' problem set for the math in machine learning. Gives more direction as to what I should be focusing on while going through linear algebra and calculus:
+
+https://www.umiacs.umd.edu/~hal/courses/2013S_ML/math4ml.pdf
