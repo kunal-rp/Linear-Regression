@@ -66,4 +66,3 @@ df['Close'].plot()
 df['Forcast'].plot()
 
 plt.legend(loc=4)
-plt.show()
