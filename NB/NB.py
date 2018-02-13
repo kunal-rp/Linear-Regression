@@ -1,10 +1,17 @@
-import numpy as np
+#Import Library of Gaussian Naive Bayes model
 from sklearn.naive_bayes import GaussianNB
-X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
-Y = np.array([1, 1, 1, 2, 2, 2])
-clf = GaussianNB()
-clf.fit(X, Y)
-print(clf.predict([[-0.8, -1]]))
-clf_pf = GaussianNB()
-clf_pf.partial_fit(X, Y, np.unique(Y))
-print(clf_pf.predict([[-0.8, -1]]))
+import numpy as np
+
+
+#assigning predictor and target variables
+x = np.array([[-3,7],[1,5], [1,2], [-2,0], [2,3], [-4,0], [-1,1], [1,1], [-2,2], [2,7], [-4,1], [-2,7]])
+y = np.array([3, 3, 3, 3, 4, 3, 3, 4, 3, 4, 4, 4])
+#Create a Gaussian Classifier
+model = GaussianNB()
+
+# Train the model using the training sets
+model.fit(x, y)
+
+#Predict Output
+predicted= model.predict([[1,2],[3,4]])
+print predicted
