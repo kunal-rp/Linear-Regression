@@ -1,6 +1,19 @@
+POST 2
+
+Finally ran through a couple of basic models and been playing around with pandas, numpy, and sklearn
+
+NB/NB-iris.py
+  Running it will show the confidence of linear regression and gaussian naive bayes with the same training and testing data.
+  I change the features(types and #) to see how it affects each model
+
+
+-----------------------------
+
+POST 1
+
 New plan for Learning Machine Learning
 
-So it's gone to the point where I am trying to learn ML, but I keep on going in circles with languages and tutorials. 
+So it's gone to the point where I am trying to learn ML, but I keep on going in circles with languages and tutorials.
 
 It's time for a change.
 
