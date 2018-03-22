@@ -2,7 +2,7 @@ clear ; close all; clc
 
 fprintf("Running\n")
 
-data = load('ex1data2.txt')
+data = load('ex1data1.txt')
 
 
 
