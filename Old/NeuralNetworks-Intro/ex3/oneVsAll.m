@@ -1,4 +1,5 @@
 function [all_theta] = oneVsAll(X, y, num_labels, lambda)
+
 %ONEVSALL trains multiple logistic regression classifiers and returns all
 %the classifiers in a matrix all_theta, where the i-th row of all_theta
 %corresponds to the classifier for label i

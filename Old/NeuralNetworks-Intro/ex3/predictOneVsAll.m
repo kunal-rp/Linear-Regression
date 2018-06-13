@@ -18,6 +18,9 @@ p = zeros(size(X, 1), 1);
 X = [ones(m, 1) X];
 
 ps = sigmoid(X*all_theta');
+%p is the index that has the max value ps
+%p_max is the value of the max value within ps
+%we want the index (p), because that will indicate what the value is 
 [p_max, p]=max(ps, [], 2);
 
 % ====================== YOUR CODE HERE ======================
